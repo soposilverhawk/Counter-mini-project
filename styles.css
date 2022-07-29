@@ -1,0 +1,28 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    height: 120px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.buttons {
+    margin-left: 540px;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+#DECREASE, #RESET, #INCREASE {
+    border: 1px solid rgb(11, 11, 114);
+}
+p {
+    font-size: 50px;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
